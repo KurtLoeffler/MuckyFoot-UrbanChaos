@@ -1,7 +1,10 @@
 .vs
-/fallen/Debug
-/fallen/Release
+
+/fallen/bin
+/fallen/intermediate
+
 *.VC.db
 *.VC.opendb
 *.vcxproj.user
-/SDL2/VisualC/SDL/Win32
+
+/UrbanChaos/
