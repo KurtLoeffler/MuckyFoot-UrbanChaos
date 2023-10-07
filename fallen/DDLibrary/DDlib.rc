@@ -7,7 +7,11 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+//#include "afxres.h"
+#include <windows.h>
+#ifndef IDC_STATIC
+#define IDC_STATIC              -1
+#endif
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -488,7 +492,7 @@ BEGIN
     "H",            ID_EDIT_PLACE_HOLE,     VIRTKEY, NOINVERT
     "L",            ID_EDIT_EDIT_LIGHT,     VIRTKEY, NOINVERT
     "L",            ID_FILE_LOAD_SEWERS,    VIRTKEY, CONTROL, NOINVERT
-    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN_WS,           VIRTKEY, CONTROL, NOINVERT
     "P",            ID_EDIT_PLACE_PRIM,     VIRTKEY, NOINVERT
     "Q",            ID_FILE_EXIT,           VIRTKEY, CONTROL, NOINVERT
     "R",            ID_EDIT_PLACE_ROCK,     VIRTKEY, NOINVERT
