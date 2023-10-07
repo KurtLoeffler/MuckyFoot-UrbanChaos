@@ -296,7 +296,10 @@ extern HINSTANCE	hGlobalThisInst;
 	case 3:		width = 800; height = 600; break;
 	case 4:		width = 1024; height = 768; break;
 	}
-
+#if KMOD
+	width = 1440;
+	height = 1080;
+#endif
 	if(flags&FLAGS_USE_3D)
 		the_display.Use3DOn();
 
